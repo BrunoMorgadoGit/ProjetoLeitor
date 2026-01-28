@@ -1,6 +1,12 @@
 # ProjetoLeitor
 
-Instruções rápidas para instalar dependências e ativar um ambiente virtual (`venv`).
+### Um sistema desenvolvido para o reconhecimento e leitura automatizada de placas veiculares para abertura de portões em lugares privados.
+
+Siga as instruções abaixo para executar o projeto localmente.   
+
+---
+
+### Instruções rápidas para instalar dependências e ativar um ambiente virtual (`venv`).
 
 ## Requisitos
 
@@ -9,7 +15,7 @@ Instruções rápidas para instalar dependências e ativar um ambiente virtual (
 
 ## Criar e ativar `venv`
 
-### Verifique se você possui permissões suficientes para criar ambientes virtuais.
+### Verifique se você possui permissões suficientes para criar ambientes virtuais
 
 Windows (PowerShell):
 
@@ -17,7 +23,7 @@ Windows (PowerShell):
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 ```
 
-### Depois, crie e ative o ambiente virtual no seu diretório do projeto:
+### Depois, crie e ative o ambiente virtual no seu diretório do projeto
 
 Windows (cmd):
 
@@ -48,7 +54,7 @@ pip install -r requirements.txt
 ```
 
 Para novas bibliotecas no projeto, execute este comando para atualizar o arquivo requirements.txt:
-    
+
 ```Powershell
 pip freeze > requirements.txt
 ```
